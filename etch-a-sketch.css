@@ -1,0 +1,44 @@
+body {
+  background-image: url("abstractPainting.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1{
+font-family: 'Pangolin', serif;
+font-size: 75px;
+text-align:center;
+text-shadow: 4px 4px 4px #aaa;
+
+}
+
+#buttonContainer{
+  background-image: url(snowflakes-vector.svg);
+  margin: auto;
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.buttonStyle{
+  font-family: 'Pangolin', serif;
+  font-size: 20px;
+  background-color:#f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+}
+
+#gridContainer {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color:#f2f2f2;
+  display: grid;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
